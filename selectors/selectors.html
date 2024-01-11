@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        *{
+            font-size: 25px;
+            /* This ia an example of universal */
+        }
+        div{
+            background-color: coral;
+        }
+        #red{
+            background-color: rgb(231, 57, 57);
+        }
+        .green{
+            background-color: rgb(96, 189, 96);
+        }
+        div>p{
+            background-color: cyan;
+            /* this is an example of sub selectors */
+        }
+    </style>
+</head>
+<body>
+    <div>
+      This is an example of tag selectors
+    </div>
+    <div id="red">
+        this is an example of id selectors
+    </div>
+    <div class="green">
+        This is a example of class selectors
+    </div>
+    <div>
+        <p> The CSS selectors is used to select the element which we want to style:</p>
+    </div>
+</body>
+</html>
